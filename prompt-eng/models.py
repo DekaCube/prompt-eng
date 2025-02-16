@@ -102,7 +102,9 @@ class ModelOptions():
         if self.seed:
             if not isinstance(self.seed, int):
                 raise TypeError(f"seed must be of type int not type {self.seed}.")
-            
+
+
+           
 
 
 
